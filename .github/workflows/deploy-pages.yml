@@ -31,7 +31,7 @@ jobs:
       - run: pnpm run build
         env:
           VITE_RAINFALL_BASE_URL: ${{ vars.VITE_RAINFALL_BASE_URL }}
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
   deploy:
