@@ -137,7 +137,7 @@ export function RainfallMap({ frame, onFrameLoaded }: RainfallMapProps) {
       });
     });
     map.on('click', (event) => {
-      const railFeatures = FEATURE_FLAGS.railway
+      const railFeatures = FEATURE_FLAGS.railway && map.getLayer('railways')
         ? map.queryRenderedFeatures(event.point, { layers: ['railways'] })
         : [];
       if (railFeatures.length > 0) {

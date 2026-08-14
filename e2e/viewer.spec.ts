@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 
 test('map, real rainfall and playback are operational', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/', { waitUntil: 'domcontentloaded' });
   await expect(page.getByTestId('rainfall-map')).toBeVisible();
   const productLabel = page.getByTestId('rainfall-product-label');
   await expect(productLabel).toHaveText('解析雨量');
@@ -16,7 +16,7 @@ test('map, real rainfall and playback are operational', async ({ page }) => {
 });
 
 test('map click samples a numeric COG and opens the point panel', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/', { waitUntil: 'domcontentloaded' });
   const map = page.getByTestId('rainfall-map');
   await map.click({ position: { x: 350, y: 300 } });
   await expect(page.getByRole('heading', { name: '選択地点' })).toBeVisible();
@@ -26,7 +26,7 @@ test('map click samples a numeric COG and opens the point panel', async ({ page 
 });
 
 test('shared URL restores time and point', async ({ page }) => {
-  await page.goto('/?date=2018-07-07&time=19%3A00&lat=34.4&lon=132.5&zoom=7&pointLat=34.3&pointLon=132.4&opacity=.55&layers=rainfall,railways');
+  await page.goto('/?product=analyzed&date=2018-07-07&time=19%3A00&lat=34.4&lon=132.5&zoom=7&pointLat=34.3&pointLon=132.4&opacity=.55&layers=rainfall,railways', { waitUntil: 'domcontentloaded' });
   await expect(page.getByText('2018/07/07 19:00', { exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { name: '選択地点' })).toBeVisible();
 });
