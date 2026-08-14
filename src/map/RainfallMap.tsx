@@ -6,9 +6,11 @@ import {
   Map as MapLibreMap,
   Marker,
   NavigationControl,
+  setWorkerUrl,
   type ImageSource,
 } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
+import maplibreWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 
 import { FEATURE_FLAGS } from '../config/app';
 import type { RainfallFrame } from '../types/rainfall';
@@ -23,6 +25,8 @@ interface RainfallMapProps {
 
 const RAIN_SOURCE = 'rainfall-frame';
 const RAIN_LAYER = 'rainfall-frame';
+
+setWorkerUrl(maplibreWorkerUrl);
 
 function addGeoJsonLayers(map: MapLibreMap) {
   if (FEATURE_FLAGS.railway) {

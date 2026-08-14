@@ -3,7 +3,11 @@ import { expect, test } from '@playwright/test';
 test('map, real rainfall and playback are operational', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByTestId('rainfall-map')).toBeVisible();
-  await expect(page.getByText('実データ・公式サンプル')).toBeVisible();
+  const productLabel = page.getByTestId('rainfall-product-label');
+  await expect(productLabel).toHaveText('解析雨量');
+  await page.getByRole('button', { name: 'レイヤ設定' }).click();
+  await page.getByRole('radio', { name: /250mレーダー/ }).check();
+  await expect(productLabel).toHaveText('250mレーダー');
   const slider = page.getByTestId('time-slider');
   const before = await slider.inputValue();
   await page.getByTestId('playback-toggle').click();
@@ -18,7 +22,7 @@ test('map click samples a numeric COG and opens the point panel', async ({ page 
   await expect(page.getByRole('heading', { name: '選択地点' })).toBeVisible();
   await expect(page.getByTestId('point-rainfall')).not.toHaveText('読込中…');
   await page.getByRole('button', { name: '時系列' }).click();
-  await expect(page.getByRole('img', { name: '選択地点の前1時間解析雨量時系列グラフ' })).toBeVisible({ timeout: 30_000 });
+  await expect(page.getByRole('img', { name: '選択地点の前1時間降水量時系列グラフ' })).toBeVisible({ timeout: 30_000 });
 });
 
 test('shared URL restores time and point', async ({ page }) => {
@@ -26,4 +30,3 @@ test('shared URL restores time and point', async ({ page }) => {
   await expect(page.getByText('2018/07/07 19:00', { exact: true })).toBeVisible();
   await expect(page.getByRole('heading', { name: '選択地点' })).toBeVisible();
 });
-

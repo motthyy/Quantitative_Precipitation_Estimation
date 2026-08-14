@@ -93,7 +93,7 @@ export default function App() {
           <RainfallMap frame={frame} onFrameLoaded={onFrameLoaded} />
           <div className="data-badge">
             <span className="live-dot" />
-            <div><strong>{manifest?.productLabel ?? '実データ・公式サンプル'}</strong><small>{manifest ? `${manifest.resolution} / ${manifest.intervalMinutes}分間隔` : 'JMBSC 2018.07.07'}</small></div>
+            <div><strong data-testid="rainfall-product-label">{manifest?.productLabel ?? '実データ・公式サンプル'}</strong><small>{manifest ? `${manifest.resolution} / ${manifest.intervalMinutes}分間隔` : 'JMBSC 2018.07.07'}</small></div>
           </div>
           <LayerPanel />
           <RainfallLegend />
