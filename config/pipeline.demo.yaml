@@ -1,0 +1,17 @@
+dataset:
+  name: JMA 1km mesh analyzed rainfall sample
+  timezone: Asia/Tokyo
+  source: JMA / Japan Meteorological Business Support Center sample
+processing:
+  bounds: [118.0, 20.0, 150.0, 48.0]
+  image_width: 1024
+  image_height: 896
+  interpolation: nearest
+  generate_cog: true
+storage:
+  type: local
+  raw_directory: data/raw/jmbsc-sample-20180707
+  output_directory: public/demo
+frontend:
+  manifest_path: manifest.json
+  base_url: /demo

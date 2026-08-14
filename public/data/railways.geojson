@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "name": "DEMO railways",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-hakata-kokura",
+        "company": "DEMO Railway",
+        "line_name": "豪雨分析デモ線",
+        "start_km": 0,
+        "end_km": 67.2,
+        "demo": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [130.4207, 33.5897],
+          [130.5391, 33.6523],
+          [130.6862, 33.7406],
+          [130.8061, 33.8294],
+          [130.9349, 33.8876]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-hiroshima-mihara",
+        "company": "DEMO Railway",
+        "line_name": "瀬戸内デモ線",
+        "start_km": 0,
+        "end_km": 71.4,
+        "demo": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [132.4756, 34.3974],
+          [132.6064, 34.4231],
+          [132.7431, 34.4477],
+          [132.9105, 34.3979],
+          [133.0825, 34.4009]
+        ]
+      }
+    }
+  ]
+}
+

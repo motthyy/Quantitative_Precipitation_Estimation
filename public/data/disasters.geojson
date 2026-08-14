@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "name": "DEMO disaster points",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "demo-disaster-1",
+        "name": "災害地点サンプル",
+        "date": "2018-07-07",
+        "description": "UI動作確認用の架空地点です。実災害位置ではありません。",
+        "demo": true
+      },
+      "geometry": { "type": "Point", "coordinates": [132.701, 34.426] }
+    }
+  ]
+}
+

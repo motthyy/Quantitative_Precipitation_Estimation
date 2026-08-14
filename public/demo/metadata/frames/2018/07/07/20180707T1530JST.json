@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "frameId": "20180707T1530JST",
+  "sourceFile": "Z__C_RJTD_20180707063000_SRF_GPV_Ggis1km_Prr60lv_ANAL_grib2.bin",
+  "sourceTimestamp": "2018-07-07T06:30:00+00:00",
+  "timestamp": "2018-07-07T15:30:00+09:00",
+  "processedAt": "2026-08-13T22:48:52.887284+09:00",
+  "processorVersion": "0.1.0",
+  "checksum": "d9186dd6ac34ba2f7b63194b493c8b492065b6a265e117e693f48485d3f0d317",
+  "bounds": [
+    118.0,
+    20.0000005,
+    150.0,
+    47.999999499999994
+  ],
+  "width": 2560,
+  "height": 3360,
+  "unit": "mm",
+  "semantics": "表示時刻までの前1時間降水量",
+  "minimum": 0.0,
+  "maximum": 49.0,
+  "nodataRatio": 0.7311733863467262
+}

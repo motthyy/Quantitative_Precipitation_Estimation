@@ -1,0 +1,24 @@
+dataset:
+  name: JMA high-resolution precipitation nowcast intensity sample (250 m)
+  timezone: Asia/Tokyo
+  source: JMA / Japan Meteorological Business Support Center official sample
+  product_id: radar250m
+  product_label: 250mレーダー
+  resolution: 250m
+  interval_minutes: 5
+  quantity: precipitation_intensity
+  unit: mm/h
+  semantics: 表示時刻の降水強度です。1時間積算雨量ではなく、その強さが1時間続いた場合の雨量 [mm/h] です。
+processing:
+  bounds: [130.0, 32.0, 136.0, 36.3333333333]
+  image_width: 1440
+  image_height: 1040
+  interpolation: nearest
+  generate_cog: true
+storage:
+  type: local
+  raw_directory: data/raw/jmbsc-highres-nowcast-20180707/selected
+  output_directory: public/radar250m
+frontend:
+  manifest_path: manifest.json
+  base_url: /radar250m

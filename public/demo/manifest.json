@@ -1,0 +1,843 @@
+{
+  "version": 1,
+  "productId": "analyzed",
+  "productLabel": "解析雨量",
+  "dataset": "JMA 1km mesh analyzed rainfall sample",
+  "source": "JMA / Japan Meteorological Business Support Center sample",
+  "sample": true,
+  "sampleNotice": "気象業務支援センター公開の実配信サンプル（2018-07-07 UTC）",
+  "availableFrom": "2018-07-07T09:00:00+09:00",
+  "availableTo": "2018-07-08T08:30:00+09:00",
+  "timezone": "Asia/Tokyo",
+  "resolution": "1km",
+  "intervalMinutes": 30,
+  "quantity": "preceding_1h",
+  "unit": "mm",
+  "semantics": "表示時刻までの前1時間に降った解析雨量です。30分間雨量ではありません。",
+  "processorVersion": "0.1.0",
+  "generatedAt": "2026-08-13T23:00:33.109077+09:00",
+  "dates": {
+    "2018-07-07": [
+      "09:00",
+      "09:30",
+      "10:00",
+      "10:30",
+      "11:00",
+      "11:30",
+      "12:00",
+      "12:30",
+      "13:00",
+      "13:30",
+      "14:00",
+      "14:30",
+      "15:00",
+      "15:30",
+      "16:00",
+      "16:30",
+      "17:00",
+      "17:30",
+      "18:00",
+      "18:30",
+      "19:00",
+      "19:30",
+      "20:00",
+      "20:30",
+      "21:00",
+      "21:30",
+      "22:00",
+      "22:30",
+      "23:00",
+      "23:30"
+    ],
+    "2018-07-08": [
+      "00:00",
+      "00:30",
+      "01:00",
+      "01:30",
+      "02:00",
+      "02:30",
+      "03:00",
+      "03:30",
+      "04:00",
+      "04:30",
+      "05:00",
+      "05:30",
+      "06:00",
+      "06:30",
+      "07:00",
+      "07:30",
+      "08:00",
+      "08:30"
+    ]
+  },
+  "frames": [
+    {
+      "id": "20180707T0900JST",
+      "timestamp": "2018-07-07T09:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T0900JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T0900JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T0900JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:00:00Z",
+      "checksum": "944d4d0d743e1599187214ec158f771b78ba177edc4b1c6f3c961e47b49a947c"
+    },
+    {
+      "id": "20180707T0930JST",
+      "timestamp": "2018-07-07T09:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T0930JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T0930JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T0930JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:30:00Z",
+      "checksum": "66b3ac1870d983e8530a8170d00fa6b9e5d0bb200b753150a2e96fb1fc69f0e8"
+    },
+    {
+      "id": "20180707T1000JST",
+      "timestamp": "2018-07-07T10:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1000JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1000JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1000JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:00:00Z",
+      "checksum": "cf16ca0fc768cde4af25d72708b402b87a8425fc775cad9a44495b0a244cbcf3"
+    },
+    {
+      "id": "20180707T1030JST",
+      "timestamp": "2018-07-07T10:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1030JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1030JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1030JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:30:00Z",
+      "checksum": "2b96bdfdd449288690139b53cf5347307aa2de45ecff34a86f2a6ff853120cd5"
+    },
+    {
+      "id": "20180707T1100JST",
+      "timestamp": "2018-07-07T11:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1100JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1100JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1100JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T02:00:00Z",
+      "checksum": "d0ab856568f531671bc0e1bec7e25435827dd58ab525b51301b2e125fe861d03"
+    },
+    {
+      "id": "20180707T1130JST",
+      "timestamp": "2018-07-07T11:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1130JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1130JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1130JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T02:30:00Z",
+      "checksum": "2e379c9db468aedd75c4156744a73be7f6658529602b6095f77d185a850454af"
+    },
+    {
+      "id": "20180707T1200JST",
+      "timestamp": "2018-07-07T12:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1200JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1200JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1200JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T03:00:00Z",
+      "checksum": "ae571601ce42e2949ddcabbde9eaa9ea19ab379cfadd7fe2c71e8515884758b5"
+    },
+    {
+      "id": "20180707T1230JST",
+      "timestamp": "2018-07-07T12:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1230JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1230JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1230JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T03:30:00Z",
+      "checksum": "1685838d1155bda66fd14a3392b7d51e596e40f992a5a5ae693ec4c5bcb31428"
+    },
+    {
+      "id": "20180707T1300JST",
+      "timestamp": "2018-07-07T13:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1300JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1300JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1300JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T04:00:00Z",
+      "checksum": "0d30b6ed608a82e0da13057c8bc06aef32800c7bb2bb99484259e77352077a37"
+    },
+    {
+      "id": "20180707T1330JST",
+      "timestamp": "2018-07-07T13:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1330JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1330JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1330JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T04:30:00Z",
+      "checksum": "d8bbb2ec79cb55f2eb10c19381c1424b594d447fef4c3ebe3511699bfe0f1c9c"
+    },
+    {
+      "id": "20180707T1400JST",
+      "timestamp": "2018-07-07T14:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1400JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1400JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1400JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T05:00:00Z",
+      "checksum": "699e49d03bc68e9b7e218e49871206263a4ff728c4c59d9461a47e8340a40ce0"
+    },
+    {
+      "id": "20180707T1430JST",
+      "timestamp": "2018-07-07T14:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1430JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1430JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1430JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T05:30:00Z",
+      "checksum": "f66dd6b58f7ccc896c1f6cd4775f2a7f4efc7da246ddadbbc9d4b64537e07c9c"
+    },
+    {
+      "id": "20180707T1500JST",
+      "timestamp": "2018-07-07T15:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1500JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1500JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1500JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T06:00:00Z",
+      "checksum": "84298eb8ffe877a7442d7010516b9c36613570c7817a5ad534884a228cfefba3"
+    },
+    {
+      "id": "20180707T1530JST",
+      "timestamp": "2018-07-07T15:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1530JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1530JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1530JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T06:30:00Z",
+      "checksum": "d9186dd6ac34ba2f7b63194b493c8b492065b6a265e117e693f48485d3f0d317"
+    },
+    {
+      "id": "20180707T1600JST",
+      "timestamp": "2018-07-07T16:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1600JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1600JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1600JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T07:00:00Z",
+      "checksum": "ecc8ad1611e268a9b26014cfbd6f8d12b6966b46fcd84540a2aaac2f1fb6b106"
+    },
+    {
+      "id": "20180707T1630JST",
+      "timestamp": "2018-07-07T16:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1630JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1630JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1630JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T07:30:00Z",
+      "checksum": "7c12ceab8764640a4221b0c1fb408bdfa5979b92856a526343e2c24d1fd253fa"
+    },
+    {
+      "id": "20180707T1700JST",
+      "timestamp": "2018-07-07T17:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1700JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1700JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1700JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T08:00:00Z",
+      "checksum": "ad481928e4a737030284fef1dfcd5c79d0f4ab2bb481de0c70b1ba8072856f50"
+    },
+    {
+      "id": "20180707T1730JST",
+      "timestamp": "2018-07-07T17:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1730JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1730JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1730JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T08:30:00Z",
+      "checksum": "08da0533026ceec02ad35aee76dac3afaea8a594137aeefbcad551801b86b4f5"
+    },
+    {
+      "id": "20180707T1800JST",
+      "timestamp": "2018-07-07T18:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1800JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1800JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1800JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T09:00:00Z",
+      "checksum": "9bf63afb19456fc038b5db77ba2aa20f1deaaa4836fc67b250cf3276520f3a2b"
+    },
+    {
+      "id": "20180707T1830JST",
+      "timestamp": "2018-07-07T18:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1830JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1830JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1830JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T09:30:00Z",
+      "checksum": "a75689305bd1a07a58fee40e17006afb036ec697fd79a36d2daaf6430a547a04"
+    },
+    {
+      "id": "20180707T1900JST",
+      "timestamp": "2018-07-07T19:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1900JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1900JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1900JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T10:00:00Z",
+      "checksum": "e8ab8641cd8cef4df816fdece5b1f1b359e5f443c8f418a8521a9db4661cfc9a"
+    },
+    {
+      "id": "20180707T1930JST",
+      "timestamp": "2018-07-07T19:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T1930JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T1930JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T1930JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T10:30:00Z",
+      "checksum": "1b41bf6c68d35211f905a1cb9e8a8d2e50b104c4af403d06a618dacfd987575d"
+    },
+    {
+      "id": "20180707T2000JST",
+      "timestamp": "2018-07-07T20:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T2000JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T2000JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T2000JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T11:00:00Z",
+      "checksum": "701d87697cc55d0a4d786f67e8a60f4dca59c682992c81f2389e34b91c0552f7"
+    },
+    {
+      "id": "20180707T2030JST",
+      "timestamp": "2018-07-07T20:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T2030JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T2030JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T2030JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T11:30:00Z",
+      "checksum": "37ff600044a3048c827a654c1c02c7d133cba8e988507355147792fd8e5a88ba"
+    },
+    {
+      "id": "20180707T2100JST",
+      "timestamp": "2018-07-07T21:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T2100JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T2100JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T2100JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T12:00:00Z",
+      "checksum": "1e82f905722758b7c16087a02f430d375d01493c93aba87059a06be25187abeb"
+    },
+    {
+      "id": "20180707T2130JST",
+      "timestamp": "2018-07-07T21:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T2130JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T2130JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T2130JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T12:30:00Z",
+      "checksum": "5bf93e0042c07d1fcc481141e195b3499b248edc1a1637d4a2f859eaeb0c5ccc"
+    },
+    {
+      "id": "20180707T2200JST",
+      "timestamp": "2018-07-07T22:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T2200JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T2200JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T2200JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T13:00:00Z",
+      "checksum": "a8184aee0314547300b59cc196e6ca6c6de15427011484680378f231ed3dd591"
+    },
+    {
+      "id": "20180707T2230JST",
+      "timestamp": "2018-07-07T22:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T2230JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T2230JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T2230JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T13:30:00Z",
+      "checksum": "9a5533095c26feb07a1ab114e2074237e95ff82a3d02a23a99707c37496d75ed"
+    },
+    {
+      "id": "20180707T2300JST",
+      "timestamp": "2018-07-07T23:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T2300JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T2300JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T2300JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T14:00:00Z",
+      "checksum": "fbed74a533937c615b1bf5ebc15102f3fdd7680d4c93ea9448dd879116b5b505"
+    },
+    {
+      "id": "20180707T2330JST",
+      "timestamp": "2018-07-07T23:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/07/20180707T2330JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/07/20180707T2330JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/07/20180707T2330JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T14:30:00Z",
+      "checksum": "35bdd4f2af391f7c1d73d08ef4c392cac9f8340feb9d25cc748ed8cc388f99d5"
+    },
+    {
+      "id": "20180708T0000JST",
+      "timestamp": "2018-07-08T00:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0000JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0000JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0000JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T15:00:00Z",
+      "checksum": "3e7c7063dd13d7c2161aa27012ea99ab50e2135a5331ccad75a4b57646d43e06"
+    },
+    {
+      "id": "20180708T0030JST",
+      "timestamp": "2018-07-08T00:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0030JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0030JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0030JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T15:30:00Z",
+      "checksum": "60b4e26734e90f5476320122e094dee40908f8a9f91cb55d6fb386a2800c26f6"
+    },
+    {
+      "id": "20180708T0100JST",
+      "timestamp": "2018-07-08T01:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0100JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0100JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0100JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T16:00:00Z",
+      "checksum": "6e06ba2415bbacd1bc26bedf929ca760c31450d897c234ca83f262795a3a1c6e"
+    },
+    {
+      "id": "20180708T0130JST",
+      "timestamp": "2018-07-08T01:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0130JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0130JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0130JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T16:30:00Z",
+      "checksum": "e32b32544a73f1ddeab1dd7fbeb11e87f3c8338fcd86a1c686ac403063f12d85"
+    },
+    {
+      "id": "20180708T0200JST",
+      "timestamp": "2018-07-08T02:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0200JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0200JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0200JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T17:00:00Z",
+      "checksum": "6b7e6ba10fe3cdd9d776b835a33fcd8261ce93c0541896ea6ee79e885e4c73a2"
+    },
+    {
+      "id": "20180708T0230JST",
+      "timestamp": "2018-07-08T02:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0230JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0230JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0230JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T17:30:00Z",
+      "checksum": "67aa20ba5ecc79a7649650016b6bf90780eac553d4816e1af872a19bf13c20fe"
+    },
+    {
+      "id": "20180708T0300JST",
+      "timestamp": "2018-07-08T03:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0300JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0300JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0300JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T18:00:00Z",
+      "checksum": "97c69d93e722e1c70914ef838b0adfd98fac90ed114b8706ee59e879b9f3609f"
+    },
+    {
+      "id": "20180708T0330JST",
+      "timestamp": "2018-07-08T03:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0330JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0330JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0330JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T18:30:00Z",
+      "checksum": "515c4065b6e98cf01b42838e19cc0eb2e02c850621955ac8131afed37ef67dd5"
+    },
+    {
+      "id": "20180708T0400JST",
+      "timestamp": "2018-07-08T04:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0400JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0400JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0400JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T19:00:00Z",
+      "checksum": "43d378ad33bef80ae913a58bd1207b06d3afa28996ddc3d7cf3938c19178394b"
+    },
+    {
+      "id": "20180708T0430JST",
+      "timestamp": "2018-07-08T04:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0430JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0430JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0430JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T19:30:00Z",
+      "checksum": "3c312fb87a942d703b9534c39ec925b04d53084da2d3bb001e72d4de8c78397e"
+    },
+    {
+      "id": "20180708T0500JST",
+      "timestamp": "2018-07-08T05:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0500JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0500JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0500JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T20:00:00Z",
+      "checksum": "e7db02b24114782892871d6c7dbaeae099a3042cd1bce0bef49b0d9be1f266df"
+    },
+    {
+      "id": "20180708T0530JST",
+      "timestamp": "2018-07-08T05:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0530JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0530JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0530JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T20:30:00Z",
+      "checksum": "1ca5e09aee90246350474732ed27f4220df7dad2e41af76699e7cea1977d7b9f"
+    },
+    {
+      "id": "20180708T0600JST",
+      "timestamp": "2018-07-08T06:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0600JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0600JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0600JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T21:00:00Z",
+      "checksum": "bcc8ab1e64dbabb28d16f81bb59310c0f66a74b9486375713662aec9cc489be5"
+    },
+    {
+      "id": "20180708T0630JST",
+      "timestamp": "2018-07-08T06:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0630JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0630JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0630JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T21:30:00Z",
+      "checksum": "0505e36d2576a752dfaf370c4980940a221d269221b7d25193d38d3068c09a0a"
+    },
+    {
+      "id": "20180708T0700JST",
+      "timestamp": "2018-07-08T07:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0700JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0700JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0700JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T22:00:00Z",
+      "checksum": "0aa46a7de40cff4dee28337e505c158a471c64aec673d67414ea53e08a3fab9d"
+    },
+    {
+      "id": "20180708T0730JST",
+      "timestamp": "2018-07-08T07:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0730JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0730JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0730JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T22:30:00Z",
+      "checksum": "879a7d324ff8f10355561e0682d1c09ecaadfa666a7560a4ca9969eb9a0f8c41"
+    },
+    {
+      "id": "20180708T0800JST",
+      "timestamp": "2018-07-08T08:00:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0800JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0800JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0800JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T23:00:00Z",
+      "checksum": "c6580b3f9a40999108574ed9d48a09cda38e28445547df6c486e64a7ba9b982a"
+    },
+    {
+      "id": "20180708T0830JST",
+      "timestamp": "2018-07-08T08:30:00+09:00",
+      "displayUrl": "/demo/frames/2018/07/08/20180708T0830JST.webp",
+      "numericUrl": "/demo/numeric/frames/2018/07/08/20180708T0830JST.tif",
+      "metadataUrl": "/demo/metadata/frames/2018/07/08/20180708T0830JST.json",
+      "bounds": [
+        118.0,
+        20.0000005,
+        150.0,
+        47.999999499999994
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T23:30:00Z",
+      "checksum": "fa991d89217e6902d653629ff2273325b09c8cbe9c0c6281b511119e315bd5da"
+    }
+  ]
+}

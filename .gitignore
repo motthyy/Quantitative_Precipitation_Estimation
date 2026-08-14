@@ -1,0 +1,46 @@
+# JavaScript
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+*.log
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local configuration and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Large or generated rainfall data must never be committed.
+data/raw/
+data/processed/
+public/local-data/
+docs/conversation-*.txt
+*.grib
+*.grib2
+*.bin
+*.tif
+*.tiff
+*.cog
+*.pmtiles
+
+# The repository contains only one small official sample day for first-run UX.
+# Full-period or user-generated rainfall remains excluded above.
+!public/demo/**
+!public/radar250m/**
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

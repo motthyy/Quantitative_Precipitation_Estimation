@@ -1,0 +1,433 @@
+{
+  "version": 1,
+  "productId": "radar250m",
+  "productLabel": "250mレーダー",
+  "dataset": "JMA high-resolution precipitation nowcast intensity sample (250 m)",
+  "source": "JMA / Japan Meteorological Business Support Center official sample",
+  "sample": true,
+  "sampleNotice": "気象業務支援センター公開の実配信サンプル（2018-07-07 UTC）",
+  "availableFrom": "2018-07-07T09:00:00+09:00",
+  "availableTo": "2018-07-07T10:55:00+09:00",
+  "timezone": "Asia/Tokyo",
+  "resolution": "250m",
+  "intervalMinutes": 5,
+  "quantity": "precipitation_intensity",
+  "unit": "mm/h",
+  "semantics": "表示時刻の降水強度です。1時間積算雨量ではなく、その強さが1時間続いた場合の雨量 [mm/h] です。",
+  "processorVersion": "0.1.0",
+  "generatedAt": "2026-08-14T11:35:21.019443+09:00",
+  "dates": {
+    "2018-07-07": [
+      "09:00",
+      "09:05",
+      "09:10",
+      "09:15",
+      "09:20",
+      "09:25",
+      "09:30",
+      "09:35",
+      "09:40",
+      "09:45",
+      "09:50",
+      "09:55",
+      "10:00",
+      "10:05",
+      "10:10",
+      "10:15",
+      "10:20",
+      "10:25",
+      "10:30",
+      "10:35",
+      "10:40",
+      "10:45",
+      "10:50",
+      "10:55"
+    ]
+  },
+  "frames": [
+    {
+      "id": "20180707T0900JST",
+      "timestamp": "2018-07-07T09:00:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T0900JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T0900JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T0900JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:00:00Z",
+      "checksum": "86f520b8e13ff5050d3825ca5290ee89a56a74a2f6a77f1e1606dbb5da400ff1"
+    },
+    {
+      "id": "20180707T0905JST",
+      "timestamp": "2018-07-07T09:05:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T0905JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T0905JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T0905JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:05:00Z",
+      "checksum": "e40cb0dcb61ed4f9f8ee86e655d3ea0974454116e798dfbef518ad4a4129fc83"
+    },
+    {
+      "id": "20180707T0910JST",
+      "timestamp": "2018-07-07T09:10:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T0910JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T0910JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T0910JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:10:00Z",
+      "checksum": "ef164a6c60d52694601e4a301e789b8f05150d2080e4e8d730aeeb0697bfa80b"
+    },
+    {
+      "id": "20180707T0915JST",
+      "timestamp": "2018-07-07T09:15:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T0915JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T0915JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T0915JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:15:00Z",
+      "checksum": "e884144e8a513be520fbd722c6ea01ce929256987fbcf99f433081e4c9ccd96b"
+    },
+    {
+      "id": "20180707T0920JST",
+      "timestamp": "2018-07-07T09:20:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T0920JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T0920JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T0920JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:20:00Z",
+      "checksum": "d73cffc9299cf0d95efd0243706337ebd0ae99c3d9abe9cc13c2f795a0fbef7f"
+    },
+    {
+      "id": "20180707T0925JST",
+      "timestamp": "2018-07-07T09:25:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T0925JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T0925JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T0925JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:25:00Z",
+      "checksum": "a93d81e78df03281c5f20e4a010e02dc1d53c8cbb33961dc7229cf8928eca846"
+    },
+    {
+      "id": "20180707T0930JST",
+      "timestamp": "2018-07-07T09:30:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T0930JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T0930JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T0930JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:30:00Z",
+      "checksum": "5912e0bad9ec4a5f64198335a2bc84fe8be6ba264b45ca4d1b7cff23dae1d823"
+    },
+    {
+      "id": "20180707T0935JST",
+      "timestamp": "2018-07-07T09:35:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T0935JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T0935JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T0935JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:35:00Z",
+      "checksum": "986174cae1e5bd65505ebd18fc5c9a3e7e546bcc098e2b2a0475a1c27488976e"
+    },
+    {
+      "id": "20180707T0940JST",
+      "timestamp": "2018-07-07T09:40:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T0940JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T0940JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T0940JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:40:00Z",
+      "checksum": "dda89d680d4d338bd9a032d6ccb5abf1f8bf86f75058c40bdbd0e553c5e41cfc"
+    },
+    {
+      "id": "20180707T0945JST",
+      "timestamp": "2018-07-07T09:45:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T0945JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T0945JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T0945JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:45:00Z",
+      "checksum": "30da167935a32da35972a4c14136c6900f7eeed269109fa69fbbe52cb97d3454"
+    },
+    {
+      "id": "20180707T0950JST",
+      "timestamp": "2018-07-07T09:50:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T0950JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T0950JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T0950JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:50:00Z",
+      "checksum": "4d831860d7f5b36d05afa6c1d46aaa7a629deb1c4567c43e8feaa9579fa66cf7"
+    },
+    {
+      "id": "20180707T0955JST",
+      "timestamp": "2018-07-07T09:55:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T0955JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T0955JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T0955JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T00:55:00Z",
+      "checksum": "5dd286c90f8f401f6204ecf4b059a5e9494217a428b6aa7e65b7bd2a5f7b03bd"
+    },
+    {
+      "id": "20180707T1000JST",
+      "timestamp": "2018-07-07T10:00:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T1000JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T1000JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T1000JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:00:00Z",
+      "checksum": "fca23ba57d59f8c919e25050046ce9b60176976adaacb735dc2325732ee68503"
+    },
+    {
+      "id": "20180707T1005JST",
+      "timestamp": "2018-07-07T10:05:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T1005JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T1005JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T1005JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:05:00Z",
+      "checksum": "0361405f8ecbd0fca24b41291adf676092dda3fa4bbf6c92f2eb85c8822e2f7e"
+    },
+    {
+      "id": "20180707T1010JST",
+      "timestamp": "2018-07-07T10:10:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T1010JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T1010JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T1010JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:10:00Z",
+      "checksum": "efb024e19e8947a17de22659cd1a42cd6d07986796fb9f535a9a3e5f4addcf45"
+    },
+    {
+      "id": "20180707T1015JST",
+      "timestamp": "2018-07-07T10:15:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T1015JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T1015JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T1015JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:15:00Z",
+      "checksum": "daf171b7522dc616df5e75582ebaef4493ba80804c1663ee8d13340fba241d64"
+    },
+    {
+      "id": "20180707T1020JST",
+      "timestamp": "2018-07-07T10:20:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T1020JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T1020JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T1020JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:20:00Z",
+      "checksum": "eb67b2f7bb988e0107a03c8e21545624cc872a780419664f8ee1904feb3899c4"
+    },
+    {
+      "id": "20180707T1025JST",
+      "timestamp": "2018-07-07T10:25:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T1025JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T1025JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T1025JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:25:00Z",
+      "checksum": "ca1f90c395c1c603a70dabcc58715f0e87816fc8480f2d85190f65c2673400d2"
+    },
+    {
+      "id": "20180707T1030JST",
+      "timestamp": "2018-07-07T10:30:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T1030JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T1030JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T1030JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:30:00Z",
+      "checksum": "2c5b284d1688c2c777d0d3f484df1c4124328aee1c83da172196cdde28478759"
+    },
+    {
+      "id": "20180707T1035JST",
+      "timestamp": "2018-07-07T10:35:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T1035JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T1035JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T1035JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:35:00Z",
+      "checksum": "c4e654d4f1594d70f513be2373d83c4b3c48d1ffd2edd8111e65c73ff03a7987"
+    },
+    {
+      "id": "20180707T1040JST",
+      "timestamp": "2018-07-07T10:40:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T1040JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T1040JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T1040JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:40:00Z",
+      "checksum": "9a6634314c0aa010db44f2037002c0d55087a6e385e5d45b8050c363875419f3"
+    },
+    {
+      "id": "20180707T1045JST",
+      "timestamp": "2018-07-07T10:45:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T1045JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T1045JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T1045JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:45:00Z",
+      "checksum": "bbd01d9d54951debd5df7f00ca75f37d4d68a87500fbea0eb81157c10554e5d9"
+    },
+    {
+      "id": "20180707T1050JST",
+      "timestamp": "2018-07-07T10:50:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T1050JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T1050JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T1050JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:50:00Z",
+      "checksum": "fe781d5bc00196c83d1b95ff64b7e7bf3ff6adffe1ac525e494664fd1209ce94"
+    },
+    {
+      "id": "20180707T1055JST",
+      "timestamp": "2018-07-07T10:55:00+09:00",
+      "displayUrl": "/radar250m/frames/2018/07/07/20180707T1055JST.webp",
+      "numericUrl": "/radar250m/numeric/frames/2018/07/07/20180707T1055JST.tif",
+      "metadataUrl": "/radar250m/metadata/frames/2018/07/07/20180707T1055JST.json",
+      "bounds": [
+        130.0,
+        32.0,
+        136.0,
+        36.3333333333
+      ],
+      "status": "available",
+      "sourceTimestamp": "2018-07-07T01:55:00Z",
+      "checksum": "efd8dd7c470ac6100ec800d1ec2f7d65f601f9e54da5542869641ff1e52fdd7a"
+    }
+  ]
+}

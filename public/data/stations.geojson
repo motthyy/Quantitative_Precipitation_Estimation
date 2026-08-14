@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "name": "DEMO stations",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": "demo-station-1", "name": "博多デモ駅", "demo": true },
+      "geometry": { "type": "Point", "coordinates": [130.4207, 33.5897] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "demo-station-2", "name": "小倉デモ駅", "demo": true },
+      "geometry": { "type": "Point", "coordinates": [130.9349, 33.8876] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": "demo-station-3", "name": "広島デモ駅", "demo": true },
+      "geometry": { "type": "Point", "coordinates": [132.4756, 34.3974] }
+    }
+  ]
+}
+

@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rainfall-pipeline"
+version = "0.1.0"
+description = "Local preprocessing pipeline for JMA analyzed rainfall GRIB2 data"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+  "numpy>=2.0,<3",
+  "Pillow>=11,<13",
+  "pydantic>=2.10,<3",
+  "PyYAML>=6,<7",
+  "typer>=0.16,<1",
+]
+
+[project.optional-dependencies]
+geo = ["rasterio>=1.4,<2"]
+grib = ["cfgrib>=0.9.15,<1", "eccodes>=2.40,<3", "xarray>=2025.1"]
+dev = ["pytest>=8,<10", "ruff>=0.12,<1"]
+
+[project.scripts]
+rainfall-pipeline = "rainfall_pipeline.cli:app"
+
+[tool.setuptools]
+package-dir = {"" = "python"}
+
+[tool.setuptools.packages.find]
+where = ["python"]
+
+[tool.pytest.ini_options]
+testpaths = ["python/tests"]
+addopts = "-ra"
+pythonpath = ["python"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

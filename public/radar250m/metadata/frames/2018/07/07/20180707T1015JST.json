@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "frameId": "20180707T1015JST",
+  "sourceFile": "Z__C_RJTD_20180707011500_NOWC_GPV_Ggis0p25km_Pri60lv_Aper5min_FH0000-0030_grib2.bin.gz",
+  "sourceTimestamp": "2018-07-07T01:15:00+00:00",
+  "timestamp": "2018-07-07T10:15:00+09:00",
+  "processedAt": "2026-08-14T11:35:15.075048+09:00",
+  "processorVersion": "0.1.0",
+  "checksum": "daf171b7522dc616df5e75582ebaef4493ba80804c1663ee8d13340fba241d64",
+  "bounds": [
+    130.0,
+    32.0,
+    136.0,
+    36.3333333333
+  ],
+  "width": 1920,
+  "height": 2080,
+  "unit": "mm/h",
+  "semantics": "表示時刻の降水強度です。1時間積算雨量ではなく、その強さが1時間続いた場合の雨量 [mm/h] です。",
+  "minimum": 0.0,
+  "maximum": 197.0,
+  "nodataRatio": 0.26282051282051283
+}
